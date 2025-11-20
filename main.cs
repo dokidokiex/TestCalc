@@ -160,9 +160,9 @@ namespace TestCalc
             }
             catch (Exception e)
             {
-                Console.WriteLine(
+                Console.Write(
                     "В результате выполнения произошла ошибка:\n" +
-                    $"{e.Message}"
+                    $"{e.Message}\n"
                 );
 
                 return 1;
